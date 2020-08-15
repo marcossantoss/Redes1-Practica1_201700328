@@ -9,7 +9,7 @@ VMware Workstation como cliente virtualizado con SO tiny core
     
     - link descarga ISO: https://distro.ibiblio.org/tinycorelinux/downloads.html
 
-#### Cracion de la red 
+####Creacion de la red 
 La red construida queda de la siguiente manera.
        -Topología de red de estrella o jerarquica
 ![Red construida](http://imgfz.com/i/fR62VDn.png)
@@ -42,7 +42,7 @@ Se presiona en el cable de la parte izquierda, para hacer la conexión entre los
 ![Conexion](http://imgfz.com/i/bcMpRhX.png)
        
      
-### Configuración de maquina virtual desde VMware Workstation
+###Configuración de maquina virtual desde VMware Workstation
 
        Se dirige a la maquina virtual y se debe colocar en Machine Setting
        Luego busca la seccion de Netwrok adapter
@@ -51,4 +51,4 @@ Se presiona en el cable de la parte izquierda, para hacer la conexión entre los
 ![Conexion](http://imgfz.com/i/O1k4aIp.png)
 
 
-### ** Configuracion de red **
+###**Configuracion de red**
