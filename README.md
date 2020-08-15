@@ -13,7 +13,7 @@ VMware Workstation como cliente virtualizado con SO tiny core
 ###### Creacion de la red 
     La red construida queda de la siguiente manera.
     -Topología de red de estrella o jerarquica
-![Red construida](http://imgfz.com/i/fR62VDn.png)
+![Red construida](http://imgfz.com/i/Ig6LvmQ.png)
 
 Para crear la red se escogen los elementos que la componen, mediante la acción de darg and drop.
 
@@ -71,3 +71,42 @@ Se presiona en el cable de la parte izquierda, para hacer la conexión entre los
     -	Duplex full
     -	Ip address 192.168.18.254 255.255.255.0
     Aquí se asigna la velocidad de transmisión, la comunicación y la ip que tendrá como Gateway.
+    
+    -   luego exit
+    -   exit
+    Y Lo MAS IMPORTANTE ES GUARDAR con el comando write
+    
+    -   write
+#### configuracion de router en consola
+![Conexion](http://imgfz.com/i/mzSIrvt.png)
+  
+###### Configuracion de la maquina virtual
+
+    - Se abre una terminal
+    - Se consulta mediante ifconfig, para verificar el estado de la configuración
+    - Se procede hacer el clic en el panel de control, -> network -> se ingresa la ip
+    - Se presiona aply
+    - ifconfig nuevamente para verificar que se haya realizado correctamente
+  
+![Conexion](http://imgfz.com/i/2LcVYnI.png)
+
+
+#### ** Configuracion de las VPCs **
+
+    Para las configuraciones de las vpc se ingresan:
+    Show para observar el estado de configuración
+
+    Show
+    ip 192.168.18.30 255.255.255.0 192.168.18.254
+
+    Para configurar una nueva ip a la vpc
+
+    Por utlimo se escribe 
+    save
+    
+    por ultimo se hace ping con las diferentes ips
+   
+    
+
+
+
