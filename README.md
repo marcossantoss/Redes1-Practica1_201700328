@@ -1,5 +1,6 @@
 # Redes1-Practica1_201700328
-##Practica no. 1 de redes 1
+##### Practica no. 1 de redes 1
+##### Marcos Alberto Santos Aquino 
 
 Software utilizado para la simulación de red: GNS3
 
@@ -9,9 +10,9 @@ VMware Workstation como cliente virtualizado con SO tiny core
     
     - link descarga ISO: https://distro.ibiblio.org/tinycorelinux/downloads.html
 
-####Creacion de la red 
-La red construida queda de la siguiente manera.
-       -Topología de red de estrella o jerarquica
+###### Creacion de la red 
+    La red construida queda de la siguiente manera.
+    -Topología de red de estrella o jerarquica
 ![Red construida](http://imgfz.com/i/fR62VDn.png)
 
 Para crear la red se escogen los elementos que la componen, mediante la acción de darg and drop.
@@ -31,7 +32,7 @@ Se presiona en el cable de la parte izquierda, para hacer la conexión entre los
 ![Conexion](http://imgfz.com/i/Ml4oq9Y.png)
 
 
-### Configuración con la maquina virtual
+###### Configuración con la maquina virtual
 
       Se agrega la maquina virtual a GNS3
       Se posiciona en la seccion de VMware
@@ -42,7 +43,7 @@ Se presiona en el cable de la parte izquierda, para hacer la conexión entre los
 ![Conexion](http://imgfz.com/i/bcMpRhX.png)
        
      
-###Configuración de maquina virtual desde VMware Workstation
+##### Configuración de maquina virtual desde VMware Workstation
 
        Se dirige a la maquina virtual y se debe colocar en Machine Setting
        Luego busca la seccion de Netwrok adapter
@@ -51,4 +52,22 @@ Se presiona en el cable de la parte izquierda, para hacer la conexión entre los
 ![Conexion](http://imgfz.com/i/O1k4aIp.png)
 
 
-###**Configuracion de red**
+###### **Configuracion de red**
+
+    1) Encender los dispositivos para configurar
+    2) Configuración de router
+
+    Se verifica con el comando:
+
+    -	Sh ip interface brief
+
+    Para visualizar el estado actual de la configuración de del router
+    -	Configure t
+    Para indicar que se configurará el router
+    -	Interfaz “nombre de la interface”, en mi caso interface FastEthernet0/0
+    Para especificar la interfaz a modificar
+        Una vez adentro se escribe
+    -	Speed 100
+    -	Duplex full
+    -	Ip address 192.168.18.254 255.255.255.0
+    Aquí se asigna la velocidad de transmisión, la comunicación y la ip que tendrá como Gateway.
