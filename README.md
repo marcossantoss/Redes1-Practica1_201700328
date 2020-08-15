@@ -106,6 +106,27 @@ Se presiona en el cable de la parte izquierda, para hacer la conexión entre los
     
     por ultimo se hace ping con las diferentes ips
    
+       hacer ping con:
+
+      - ping 192.168.18.30 a 192.168.12.15
+      - ping 192.168.18.30 a 192.168.12.30
+      - ping 192.168.18.30 a 192.168.18.15
+
+      - ping 192.168.18.15 a 192.168.12.15
+      - ping 192.168.18.15 a 192.168.12.30
+      - ping 192.168.18.15 a 192.168.18.30
+      
+      - ping 192.168.12.15 a 192.168.12.30
+      - ping 192.168.12.15 a 192.168.18.30
+      - ping 192.168.12.15 a 192.168.18.15
+      
+      - ping 192.168.12.30 a 192.168.12.30
+      - ping 192.168.12.30 a 192.168.12.30
+      - ping 192.168.12.30 a 192.168.18.15
+   
+   ![Conexion](http://imgfz.com/i/jPXVT3O.png)
+   ![Conexion](http://imgfz.com/i/JQDlE80.png)  
+   ![Conexion](http://imgfz.com/i/fjVcXUz.png)  
     
 
 
